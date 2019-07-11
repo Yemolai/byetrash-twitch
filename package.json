@@ -1,0 +1,42 @@
+{
+  "name": "byetrash-twitch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tmi.js": "^1.4.5",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/expect": "^1.20.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "@types/tmi.js": "^1.4.0",
+    "mocha": "^6.1.4",
+    "ts-mocha": "^6.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/src",
+    "test": "ts-mocha --recursive ./src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yemolai/byetrash-twitch.git"
+  },
+  "keywords": [
+    "twitch",
+    "bot",
+    "typescript"
+  ],
+  "author": "ByeTrash Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yemolai/byetrash-twitch/issues"
+  },
+  "homepage": "https://github.com/Yemolai/byetrash-twitch#readme"
+}
